@@ -1,0 +1,64 @@
+img{
+  height: 30vh;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+
+.bg-img {
+  background-image: url('assets/Arena.png');
+    height: 30vh;
+      width: 100%;
+      object-fit: fill;
+      object-position: center;
+}
+
+.boss-img{
+  background-image: url('assets/burritoBoss.png');
+  width: 40rem;
+  height: 40rem;
+  border-radius: 1rem;
+  background-position: center;
+    background-size: cover;
+}
+
+.hero1 {
+  background-image: url('assets/strawberry_boy.png');
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+}
+.hero2{
+  background-image: url('assets/burrito_boy.png');
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+  }
+  
+
+
+
+.hero-img {
+  background-image: url("assets/Arena.png");
+  height: 100vh; 
+  /* we are using background image properties */ 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.glassCard {
+  background: rgba(15, 15, 15, 0.354);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(15, 15, 15, 0.26);
+  width: 30rem;
+  margin-left: 2rem;
+  text-align: center;
+}

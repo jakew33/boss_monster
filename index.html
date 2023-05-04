@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+  <title>Boss Fight</title>
+</head>
+  
+  <style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+  
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+  
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+
+<body class="debug" class="">
+
+  
+  <main class="container-fluid hero-img">
+    
+    <section class="row">
+      
+      <!-- hero1 -->
+        <div class="col-md-6 p-3 d-flex justify-content-center">
+          <div class="hero1" onclick='heroAttack("Strawberry Boy")'></div>
+          <div class="glassCard text-light">
+            <p class="fs-2">Level: <span id="hero1lvl">1</span> </p>
+            <p class="fs-2">Current Health <span id="hero1health">100</span></p>
+          </div>
+        </div>
+        <!-- hero space 2 -->
+        <div class="col-md-6 p-3 d-flex justify-content-center">
+          
+          <div class="hero2" onclick='heroAttack("Burrito Boy")'></div>
+          <div class="glassCard text-light">
+            <p class="fs-2">Level: <span id="hero2lvl">1</span> </p>
+            <p class="fs-2">Current Health <span id="hero2health">100</span></p>
+        </div>
+        <
+        <!-- hero space 3 -->
+          
+      <!-- hero space 4 -->
+      
+
+
+
+</section>
+
+
+
+  <div class="row">
+    <div class="row">
+      <p class="fw-bolder fs-1 text-center text-white">Los Betos Burrito Boss</p>
+    </div>
+    <div class="col-12 d-flex p-3 justify-content-center">
+      <div class="boss-img"></div>
+    <div class="glassCard text-light">
+            <p class="fs-2">Level: <span id="bosslvl">1</span> </p>
+            <p class="fs-2">Current Health <span id="bosshealth">100</span></p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-3">
+        <div class="glassCard text-light">
+          <p>BUY POTION:</p>
+          <p>BUY SAM:</p>
+          <p>BUY JAKE:</p>
+        </div>
+        
+      </div>
+      <div class="col  justify-content-end">
+  <button class="">RESET</button>
+</div>
+    </div>
+    
+
+    
+
+<!-- <section class="container-fluid">
+  <div class="row">
+    <div class=" col-md-12">
+      <h1>INVENTORY</h1>
+      <div ></div>
+      
+    </div>
+  </div>
+</section> -->
+
+
+
+</main>
+
+
+
+
+  
+<script src="app.js"></script>
+</body>
+</html>
